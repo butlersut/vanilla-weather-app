@@ -19,7 +19,7 @@ body {
     list-style: none;
   }
   ul {
-    margin: 0;
+    margin: 5px;
     padding: 0;
   }
   
@@ -30,7 +30,7 @@ body {
       rgba(91, 224, 254, 0.46) 47.2%,
       rgba(170, 254, 235, 0.43) 90%
     ); 
-    border: 1px solid #dadd;
+    border: 1px solid;
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto;
@@ -46,12 +46,13 @@ body {
   
   .units {
     position: relative;
-    top: -32px;
+    top: -5px;
   }
   
   .search-form {
     margin-bottom: 10px;
   }
-.btn {
-    margin-bottom: 10px;
-}
+
+  .forecast {
+position: relative;
+  }
